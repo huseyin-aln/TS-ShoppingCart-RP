@@ -1,5 +1,4 @@
 import { createContext, ReactNode, useContext, useState } from "react";
-import { createEmitAndSemanticDiagnosticsBuilderProgram } from "typescript";
 
 type ShoppingCartProviderProps = {
   children: ReactNode;
@@ -10,14 +9,14 @@ type CartItem = {
   quantity: number;
 };
 
-type ShoppingCartContext = {
+type ShoppingCartContextProps = {
   getItemQuantity: (id: number) => number;
   increaseCartQuantity: (id: number) => void;
   decreaseCartQuantity: (id: number) => void;
   removeFromCart: (id: number) => void;
 };
 
-const ShoppingCartContext = createContext({} as ShoppingCartContext);
+const ShoppingCartContext = createContext({} as ShoppingCartContextProps);
 
 export const useShoppingCart = () => useContext(ShoppingCartContext);
 
