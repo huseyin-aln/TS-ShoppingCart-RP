@@ -1,46 +1,77 @@
-# Getting Started with Create React App
+<h1 align="center">ShoppingCart with TypeScript-RP</h1>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<div align="center">
+  <h3>
+    <a href="https://ecommerce-site-design-rp.netlify.app/">
+      TS-ShoppingCart-RP
+    </a>
+ 
+  </h3>
+</div>
 
-## Available Scripts
 
-In the project directory, you can run:
+<!-- TABLE OF CONTENTS -->
 
-### `yarn start`
+## Table of Contents
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+- [Overview](#overview)
+- [Built With](#built-with)
+- [How to use](#how-to-use)
+- [Acknowledgements](#acknowledgements)
+- [Contact](#contact)
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+<!-- OVERVIEW -->
 
-### `yarn test`
+## Overview
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+![TS-ShoppingCart-RP](https://user-images.githubusercontent.com/101873227/210214377-a00645f6-4dfe-4e53-a663-32def70ca337.gif)
 
-### `yarn build`
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### Built With
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+- HTML
+- CSS
+- TS
+- REACT
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## Features
 
-### `yarn eject`
+- The data was used by transferring it to the global state with the react context.
+- A custom hook has been created where the objects are kept in localstorage so that the objects thrown to the cart are not lost when the page is refreshed.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+## How To Use
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+To clone and run this application, you'll need [Git](https://git-scm.com) 
+```bash
+# Clone this repository
+$ git clone https://github.com/huseyin-aln/TS-ShoppingCart-RP
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+# Install dependencies
+  
+    "@types/jest": "^27.0.1",
+    "@types/node": "^16.7.13",
+    "@types/react": "^18.0.0",
+    "@types/react-dom": "^18.0.0",
+    "bootstrap": "^5.2.3",
+    "react": "^18.2.0",
+    "react-bootstrap": "^2.7.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.6.1",
+    "react-scripts": "5.0.1",
+    "typescript": "^4.4.2",
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```
 
-## Learn More
+## Acknowledgements
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- This project is built using TypeScript and React.
+- You can add new item to the cart and remove item from the cart.
+- When you add or remove item, total fee will change simulatenously.
+- When you add or remove item, total amount of cart will change simulatenously as well.
+- I used localStorage to keep cart list thus your cart won't change after refreshing.
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## Contact
+
+- GitHub [@huseyin-aln](https://{github.com/huseyin-aln})
+
+- Linkedin [@hüseyin-arslan444](https://{linkedin.com/hüseyin-arslan444})
