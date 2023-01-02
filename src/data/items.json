@@ -13,12 +13,24 @@
     },
     {
       "id": 3,
-      "name": "Banana",
-      "price": 1.05,
-      "imgUrl": "/imgs/banana.jpg"
+      "name": "Phone",
+      "price": 900,
+      "imgUrl": "/imgs/phone.jpg"
     },
     {
       "id": 4,
+      "name": "Shirth",
+      "price": 20,
+      "imgUrl": "/imgs/shirt.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Apple",
+      "price": 1.05,
+      "imgUrl": "/imgs/apple.jpg"
+    },
+    {
+      "id": 6,
       "name": "Car",
       "price": 14000,
       "imgUrl": "/imgs/car.jpg"
