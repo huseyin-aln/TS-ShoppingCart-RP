@@ -2,7 +2,7 @@
 
 <div align="center">
   <h3>
-    <a href="https://ts-shoppingcart-rp.netlify.app/store">
+    <a href="https://ts-shoppingcart-rp.netlify.app/">
       TS-ShoppingCart-RP
     </a>
  
